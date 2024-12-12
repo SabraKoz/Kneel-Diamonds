@@ -1,21 +1,22 @@
 const transientState = {
-    "metalChoice": "",
-    "sizeChoice": 0,
-    "styleChoice": ""
+    "id": 0,
+    "metalId": 0,
+    "sizeId": 0,
+    "styleId": 0
 }
 
 export const setMetalChoice = (chosenMetal) => {
-    transientState.metalChoice = chosenMetal
+    transientState.metalId = chosenMetal
     console.log(transientState)
 }
 
 export const setSizeChoice = (chosenSize) => {
-    transientState.sizeChoice = chosenSize
+    transientState.sizeId = chosenSize
     console.log(transientState)
 }
 
 export const setStyleChoice = (chosenStyle) => {
-    transientState.styleChoice = chosenStyle
+    transientState.styleId = chosenStyle
     console.log(transientState)
 }
 

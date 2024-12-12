@@ -5,9 +5,10 @@ export const OrderList = async () => {
     let ordersHTML = ""
     const ordersArray = orders.map(
         (order) => {
-            `<div>Order #${order}</div>`
+            return `<div>Order #${order.id}</div>`
         }
     )
     ordersHTML += ordersArray.join("")
     return ordersHTML
 }
+// const orderPrice = order.metal.price + order.style.price + order.size.price
