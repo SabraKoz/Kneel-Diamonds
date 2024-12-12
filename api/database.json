@@ -1,22 +1,171 @@
 {
-    "styles": [
-        { "id": 1, "style": "Classic", "price": 500 },
-        { "id": 2, "style": "Modern", "price": 710 },
-        { "id": 3, "style": "Vintage", "price": 965 }
-    ],
-    "sizes": [
-        { "id": 1, "carets": 0.5, "price": 405 },
-        { "id": 2, "carets": 0.75, "price": 782 },
-        { "id": 3, "carets": 1, "price": 1470 },
-        { "id": 4, "carets": 1.5, "price": 1997 },
-        { "id": 5, "carets": 2, "price": 3638 }
-    ],
-    "metals": [
-        { "id": 1, "metal": "Sterling Silver", "price": 12.42 },
-        { "id": 2, "metal": "14K Gold", "price": 736.4 },
-        { "id": 3, "metal": "24K Gold", "price": 1258.9 },
-        { "id": 4, "metal": "Platinum", "price": 795.45 },
-        { "id": 5, "metal": "Palladium", "price": 1241.0 }
-    ],
-    "orders": []
+  "styles": [
+    {
+      "id": "1",
+      "style": "Classic",
+      "price": 500
+    },
+    {
+      "id": "2",
+      "style": "Modern",
+      "price": 710
+    },
+    {
+      "id": "3",
+      "style": "Vintage",
+      "price": 965
+    }
+  ],
+  "sizes": [
+    {
+      "id": "1",
+      "carets": 0.5,
+      "price": 405
+    },
+    {
+      "id": "2",
+      "carets": 0.75,
+      "price": 782
+    },
+    {
+      "id": "3",
+      "carets": 1,
+      "price": 1470
+    },
+    {
+      "id": "4",
+      "carets": 1.5,
+      "price": 1997
+    },
+    {
+      "id": "5",
+      "carets": 2,
+      "price": 3638
+    }
+  ],
+  "metals": [
+    {
+      "id": "1",
+      "metal": "Sterling Silver",
+      "price": 12.42
+    },
+    {
+      "id": "2",
+      "metal": "14K Gold",
+      "price": 736.4
+    },
+    {
+      "id": "3",
+      "metal": "24K Gold",
+      "price": 1258.9
+    },
+    {
+      "id": "4",
+      "metal": "Platinum",
+      "price": 795.45
+    },
+    {
+      "id": "5",
+      "metal": "Palladium",
+      "price": 1241
+    }
+  ],
+  "orders": [
+    {
+      "id": "a957",
+      "metalChoice": 1,
+      "sizeChoice": 5,
+      "styleChoice": 3
+    },
+    {
+      "id": "f571",
+      "metalChoice": 1,
+      "sizeChoice": 5,
+      "styleChoice": 3
+    },
+    {
+      "id": "ad9f",
+      "metalChoice": 1,
+      "sizeChoice": 5,
+      "styleChoice": 3
+    },
+    {
+      "id": "9379",
+      "metalChoice": 1,
+      "sizeChoice": 5,
+      "styleChoice": 3
+    },
+    {
+      "id": "5115",
+      "metalChoice": 1,
+      "sizeChoice": 5,
+      "styleChoice": 3
+    },
+    {
+      "id": "bd4e",
+      "metalChoice": 1,
+      "sizeChoice": 5,
+      "styleChoice": 3
+    },
+    {
+      "id": "8c28",
+      "metalChoice": 1,
+      "sizeChoice": 5,
+      "styleChoice": 2
+    },
+    {
+      "id": "52d1",
+      "metalChoice": 5,
+      "sizeChoice": 5,
+      "styleChoice": 3
+    },
+    {
+      "id": "e0f1",
+      "metalChoice": 4,
+      "sizeChoice": 4,
+      "styleChoice": 1
+    },
+    {
+      "id": "a1a1",
+      "metalChoice": 4,
+      "sizeChoice": 2,
+      "styleChoice": 2
+    },
+    {
+      "id": "87f7",
+      "metalChoice": 1,
+      "sizeChoice": 1,
+      "styleChoice": 1
+    },
+    {
+      "id": "d121",
+      "metalChoice": 3,
+      "sizeChoice": 3,
+      "styleChoice": 2
+    },
+    {
+      "id": "b1f5",
+      "metalChoice": 1,
+      "sizeChoice": 2,
+      "styleChoice": 3
+    },
+    {
+      "id": "77e4",
+      "metalChoice": 3,
+      "sizeChoice": 4,
+      "styleChoice": 1
+    },
+    {
+      "id": "eba6",
+      "metalChoice": 4,
+      "sizeChoice": 4,
+      "styleChoice": 1
+    },
+    {
+      "id": "d05c",
+      "metalChoice": 4,
+      "sizeChoice": 4,
+      "styleChoice": 3
+    }
+  ]
 }
