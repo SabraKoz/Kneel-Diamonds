@@ -3,10 +3,21 @@ export const StyleOptions = async () => {
     const styles = await response.json()
 
     let stylesChoiceHTML = ""
-    for (const style of styles) {
-        stylesChoiceHTML += `<input type='radio' name='style' value='${style.id}' /> ${style.style}`
-    }
 
+    const stylesArray = styles.map(
+        (style) => {
+            return `<div>
+                <input type='radio' name='style' value='${style.id}' /> ${style.style}
+                </div>`
+        }
+    )
 
+    stylesChoiceHTML += stylesArray.join("")
+    
     return stylesChoiceHTML
 }
+
+
+// for (const style of styles) {
+//     stylesChoiceHTML += `<br><input type='radio' name='style' value='${style.id}' /> ${style.style}`
+// }

@@ -3,10 +3,21 @@ export const SizeOptions = async () => {
     const sizes = await response.json()
 
     let sizesChoiceHTML = ""
-    for (const size of sizes) {
-        sizesChoiceHTML += `<input type='radio' name='size' value='${size.id}' /> ${size.carets}`
-    }
+
+    const sizesArray = sizes.map(
+        (size) => {
+            return `<div>
+                <input type='radio' name='size' value='${size.id}' /> ${size.carets}
+                </div>`
+        }
+    )
+    
+    sizesChoiceHTML += sizesArray.join("")
 
 
     return sizesChoiceHTML
 }
+
+// for (const size of sizes) {
+//     sizesChoiceHTML += `<br><input type='radio' name='size' value='${size.id}' /> ${size.carets}`
+// }
